@@ -1,0 +1,56 @@
+div {
+	display: flex;
+	flex-direction: row;
+}
+
+.container:hover{
+	background-color: yellow;
+}
+
+.container1:hover{
+	background-color: goldenrod;
+}
+.f-container:hover{
+	background-color: goldenrod;
+}
+
+.container {
+	cursor: all-scroll;
+	font-family: Tahoma;
+	font-size: 40px;
+	width: 100px;
+	height: 150px;
+	background-color: #eeeff2;
+	margin: 10px;
+	border-left: 10px dotted #D0D0FF;
+	padding-top: 10px;
+}
+
+
+.container1 {
+	cursor: all-scroll;
+	font-family: Tahoma;
+	font-size: 40px;
+	width: 100px;
+	height: 150px;
+	margin: 10px;
+	background-color: #eeeff2;
+	border-left: 10px dotted #D0D0FF;
+	padding-top: 10px;
+}
+
+
+.f-container {
+	cursor: all-scroll;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: #eeeff2;
+	width: 100px;
+	height: 150px;
+	margin: 10px;
+	border-left: 10px dotted #D0D0FF;
+	padding-top: 10px;
+}
